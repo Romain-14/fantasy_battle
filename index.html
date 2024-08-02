@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<title>Fantasy Battle</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>Fantasy Battle</h1>
+				<div></div><!-- conteneur pour une image de fond-->				
+			</header>
+
+			<div class="battle">
+				<div id="player">
+					<figure>
+						<img src="./assets/img/angel.webp" alt="" />
+						<figcaption>Seraphina</figcaption>
+					</figure>
+
+					<div class="stats">
+						<p>Health: <span class="hp">100</span></p>
+						<p>Mana: <span class="mp">50</span></p>
+						<p>Attack: <span class="attack">10</span></p>
+						<p>Heal: <span class="heal">8</span></p>
+					</div>
+				</div>
+
+				<div id="computer">
+					<figure>
+						<img src="./assets/img/demon.webp" alt="" />
+						<figcaption>Mayzikeen</figcaption>
+					</figure>
+					<div class="stats">
+						<p>Health: <span class="hp">100</span></p>
+						<p>Mana: <span class="mp">100</span></p>
+						<p>Attack: <span class="attack">100</span></p>
+						<p>Heal: <span class="heal">100</span></p>
+					</div>
+				</div>
+			</div>
+
+			<aside>
+				<div class="player__actions">
+					<button id="attack">Attack</button>
+					<button id="heal">Heal</button>
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="log">
+					<h2>Log</h2>
+					<ul id="log">
+						
+					</ul>
+				</div>
+			</aside>
+		</main>
+
+		<footer>
+			<p>
+				&copy; 2024 - Romain Fournier pour la 3W-Academy - Fantasy
+				Battle
+			</p>
+			<ul>
+				License des images :
+				<li>
+					Image par
+					<a
+						href="https://pixabay.com/users/ang3law-11692607/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7877234"
+						>Angela</a
+					>
+					de
+					<a
+						href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7877234"
+						>Pixabay</a
+					>
+				</li>
+
+				<li>
+					Image par
+					<a
+						href="https://pixabay.com/fr/users/grumpybeere-22072131/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8269764"
+						>GrumpyBeere</a
+					>
+					de
+					<a
+						href="https://pixabay.com/fr//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8269764"
+						>Pixabay</a
+					>
+				</li>
+				<li>
+					Image background générée par Romain Fournier sur
+					<a href="https://creator.nightcafe.studio/studio"
+						>nightcafe</a
+					>
+				</li>
+			</ul>
+		</footer>
+		<script type="module" src="./assets/js/main.js"></script>
+	</body>
+</html>
